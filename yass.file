@@ -1,0 +1,114 @@
+BLASTN 2.2.25+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+RID: none
+
+
+Query= file1
+
+Length=1191
+
+
+                                                                   Score    E
+Sequences producing significant alignments:                       (Bits) Value
+
+lcl|29660 file2                                                   270.5   4.5e-76
+
+ALIGNMENTS
+>lcl|29660 file2
+Length=987
+
+ Score = 270 bits (969),  Expect = 4.5e-76
+ Identities = 623/974 (63%), Gaps = 5/974 (0%)
+ Strand=Plus/Plus
+
+Query  74        TTGGGATAGTTGCGGTTGGCCAGGATCACCAGTCCCAGGTCGCGGCCCGGGACGAACGCC  133
+                 || |||||||||||||||||||||||||| |  || || | |||   ||| |||||||||
+Sbjct  2         TTCGGATAGTTGCGGTTGGCCAGGATCACGATGCCGAGCTTGCGCGACGGCACGAACGCC  61
+
+
+Query  134       ACGTAGGCGCCGAAGCCGTTGGTGGAACCGGTCTTGTTCAGCAGGCGCTGGCC-CTCCAG  192
+                 ||||||||||| ||||| |||||||  ||||||||||| | |   | | | |  || | |
+Sbjct  62        ACGTAGGCGCCAAAGCCATTGGTGGCGCCGGTCTTGTTGA-CCCACACCGCCTGCTGCGG  120
+
+
+Query  193       CGCCTGTGGCGCGGGCAGCCTGGCGATCCTGTGCGGTTGCAGCGCCATCGGCGTCGAGTT  252
+                 |||| | ||||   || |      || |    | |  |  | ||| | | | |  |||||
+Sbjct  121       CGCCAGCGGCGGTTGCTGGGCCTTGACCGGCAGGGTCTCGAACGCGACCTGGGCGGAGTT  180
+
+
+Query  253       GCCGGCCTGCAGGCGCTTCAGGGAGATCGGCCAGTCGTAGGCTTCCCAGCCCAGGCCCTG  312
+                 ||||  |  ||||   | ||  || | |||  ||   ||   |||||||  |||| ||||
+Sbjct  181       GCCGCGCACCAGGTCGTCCACCGACACCGGGTAGCGATACTGTTCCCAGATCAGGTCCTG  240
+
+
+Query  313       GGTCATGTCGCCGACCTTGTAGTAACCGCGATGGGTGGCATCGAGCGCCTGCGCCCAGGG  372
+                  |||||  |||| | || ||| || |||   |||||  |  |||  ||  ||  |   | 
+Sbjct  241       CGTCATCGCGCCCAACTGGTAATAGCCGGTGTGGGTCTCGGCGATGGCGCGCTGCAGCGT  300
+
+
+Query  373       CCTGTCCAGGCGCTCCGGATGCAGGTTGGCATCGACGAAGCGCAGCAGGTCGGCCGCGCT  432
+                   |||| |   || | |    ||| |||   |||| ||| ||||||| ||||   |||||
+Sbjct  301       GGTGTCGACCGGCACGGCGCCCAGATTGATCTCGATGAAACGCAGCATGTCGCGGGCGCT  360
+
+
+Query  433       GGTCTTCACCCCGTAGCCTTCGGCATCCAGCGGGCCGGGACCGACCCGTAGCGGGCGGTC  492
+                 || |||||| |||||| | ||| |  |||||  ||| ||    |  || | |||   |||
+Sbjct  361       GGACTTCACGCCGTAGGCCTCGTCGGCCAGCACGCCCGGGTTCAGGCGCACCGGCGCGTC  420
+
+
+Query  493       GTCCTTGCCGTAGCCCTGGGCGTACTGCGCCAACGCCGCCTCGGGCACGTCGAGGTGGGT  552
+                  | |||| |||||||||||||||| |  | || |     |   ||||| || ||   |||
+Sbjct  421       CTGCTTGTCGTAGCCCTGGGCGTAGTCGGGCATCTTGCGCGGCGGCACTTCCAGCCAGGT  480
+
+
+Query  553       CTGTTCGAGGCCCAGTGCCGGGAACACTTGCTGCTCCATGAGCCGTTCGAACGGCTGGCC  612
+                  |     ||||||||    || ||||  |||||||||||   |    || | | || |||
+Sbjct  481       GTCGCGCAGGCCCAGCTTGGGAAACAGCTGCTGCTCCATCGCCGCCACGTAGGACTCGCC  540
+
+
+Query  613       CAGGCTGCGCGCGGCGAGATAGCCGAACAGGCCGATGCTCGGGTTGGAATAGAGGCGCTG  672
+                 |||   |||||| || |    ||| | || ||||||||| ||||||| ||||  ||||| 
+Sbjct  541       CAGCGCGCGCGCCGCCACCACGCCCAGCATGCCGATGCTGGGGTTGGCATAGGTGCGCTT  600
+
+
+Query  673       GCTGCCCGGCGCGTAGGTCGGCTGCCACTGGCGGTAGTAGTCGCGGATCTGTGCCTGGTC  732
+                   |||| ||||| ||   |||   |||      |  ||||||    |  || |||  |  
+Sbjct  601       CGTGCCGGGCGCATACTGCGGGGTCCAGGCCTTGAGGTAGTCCATCAGTTGCGCCGTG--  658
+
+
+Query  733       CTTCTGCACCGAGTCGGGGAACTGCAGCGGCAAGCCGCCGGCGGTATAGGTCGCGAGGTC  792
+                  ||||| |||| ||| || | |||||  || |||||||||||||| |  || || |||| 
+Sbjct  659       -TTCTGGACCGCGTCCGGCACCTGCAAGGGAAAGCCGCCGGCGGTGTGCGTGGCCAGGTT  717
+
+
+Query  793       GAGCAGGCTGATGCCGTCGAAGCGGCTGCCCTGCAGTGCCGGCCAGTGCTGGCTGGCGCG  852
+                  | |||  | |    | ||||   |||||| |||||  | |||     || |   |  | 
+Sbjct  718       CACCAGCGTCAGCTTGGCGAATTCGCTGCCTTGCAGCTCGGGCACCCACTTGGCCGGACT  777
+
+
+Query  853       GTCGTCGAGGCGCATCTTGTCCTGGGTCAGGGCATAGCCGGCGAGGGTGGCGGTGAAGGT  912
+                 |||| | ||   ||    | ||  || | | || ||| |||| || ||| ||||||||||
+Sbjct  778       GTCGGCCAGCGACAGGCGGCCCGTGGCCTGCGCGTAGGCGGCCAGCGTGACGGTGAAGGT  837
+
+
+Query  913       CTTGCTCACCGAGCCGATCTCGAACAGGGTCTCCGGCGTCACCCGGCGGCCGTCCTCTTT  972
+                 |||||| | ||| || |  ||||||||||| ||    |  ||   |||||    ||    
+Sbjct  838       CTTGCTGATCGAACCCAGTTCGAACAGGGTGTCGCTGGAAACGGCGCGGCGCGGCTGGCG  897
+
+
+Query  973       CGAGGCCAGCCCATAGCTGAAGTAATGCGGTTCTCCTTTCAGGCTGATGGCTACGGCCAG  1032
+                 ||||||    |||||| ||||| |  || | |  || ||  |||||| | | | ||||| 
+Sbjct  898       CGAGGCGTCGCCATAGTTGAAGAAGCGCTGCTTGCCATTGTGGCTGACGCCGATGGCCAT  957
+
+
+Query  1033      GCCCGGAATGTCAT  1046
+                 |||    ||| |||
+Sbjct  958       GCCGTCGATGCCAT  971
+
+
