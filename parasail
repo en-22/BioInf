@@ -1,0 +1,91 @@
+EMBOSS
+
+seqB                 2 TTCGGATAGTTGCGGTTGGCCAGGATCACGATGCCGAGCTTGCGCGACGG      51
+                       ||.||||||||||||||||||||||||||.|..||.||.|.|||...|||
+seqA                74 TTGGGATAGTTGCGGTTGGCCAGGATCACCAGTCCCAGGTCGCGGCCCGG     123
+
+seqB                52 CACGAACGCCACGTAGGCGCCAAAGCCATTGGTGGCGCCGGTCTTGTTGA     101
+                       .||||||||||||||||||||.|||||.|||||||..|||||||||||.|
+seqA               124 GACGAACGCCACGTAGGCGCCGAAGCCGTTGGTGGAACCGGTCTTGTTCA     173
+
+seqB               102 -CCCACACC-GCCTGCTGCGGCGCCAGCGGCGGTTGCTGGGCCTTG---A     146
+                        |...|.|. |||  ||.|.|||||.|.||||...||  .||||.|   .
+seqA               174 GCAGGCGCTGGCC--CTCCAGCGCCTGTGGCGCGGGC--AGCCTGGCGAT     219
+
+seqB               147 CCGGCAGGGTCTCGAACGCGACCTGGGCG--GAGTTGCCGCGCACCAGGT     194
+                       ||.|...|||..|   .|||.|.|.||||  |||||||||..|..||||
+seqA               220 CCTGTGCGGTTGC---AGCGCCATCGGCGTCGAGTTGCCGGCCTGCAGG-     265
+
+seqB               195 CG-TCCACCGACACCGGGTAGCGATACTGTTCCCAGATCAGGTCCTGCGT     243
+                       || |.||..||.|.|||..||...||...|||||||..||||.||||.||
+seqA               266 CGCTTCAGGGAGATCGGCCAGTCGTAGGCTTCCCAGCCCAGGCCCTGGGT     315
+
+seqB               244 CATCGCGCCCAACTGGTAATAGCCGGTGTGGGTCTCGGCGATGGCGCGCT     293
+                       |||..||||.|.||.|||.||.|||...|||||..|..|||  |||| ||
+seqA               316 CATGTCGCCGACCTTGTAGTAACCGCGATGGGTGGCATCGA--GCGC-CT     362
+
+seqB               294 GCAGCGTGG---TGTCGACCGGCACGGCGCC-----CAGATTGATCTCGA     335
+                       ||..|..||   ||||  |.|||   ||.||     |||.|||...||||
+seqA               363 GCGCCCAGGGCCTGTC--CAGGC---GCTCCGGATGCAGGTTGGCATCGA     407
+
+seqB               336 TGAAACGCAGCATGTCGCGGGCGCTGGACTTCACGCCGTAGGCCTCGTCG     385
+                       .|||.|||||||.||||...|||||||.||||||.||||||.|.|||.|.
+seqA               408 CGAAGCGCAGCAGGTCGGCCGCGCTGGTCTTCACCCCGTAGCCTTCGGCA     457
+
+seqB               386 GCCAGCACGCCCGGGTTCAGGCGC---ACCGGCGCGTCCTGCTTGTCGTA     432
+                       .|||||..|||  ||..|.|.|.|   .|.|||| |||.|.||||.||||
+seqA               458 TCCAGCGGGCC--GGGACCGACCCGTAGCGGGCG-GTCGTCCTTGCCGTA     504
+
+seqB               433 GCCCTGGGCGTAGTCGGGCATCTTGCGCGGC----GGCACTTCCAGCCAG     478
+                       ||||||||||||.|   ||. |...|||.||    |||||.||.||...|
+seqA               505 GCCCTGGGCGTACT---GCG-CCAACGCCGCCTCGGGCACGTCGAGGTGG     550
+
+seqB               479 GTGTCGCGC-AGGCCCAGCTTGGGAAACAGCTGCTGCTCCAT-CGCCGCC     526
+                       ||.| |..| ||||||||....||.||||..||||||||||| .|||| .
+seqA               551 GTCT-GTTCGAGGCCCAGTGCCGGGAACACTTGCTGCTCCATGAGCCG-T     598
+
+seqB               527 ACGTAGGACTCGCCCAGCGC-GCGCGCCGCCACCACGCCCAGCATGCCGA     575
+                       .||.|.|.||.|||||| || ||||||.||.|....|||.|.||.|||||
+seqA               599 TCGAACGGCTGGCCCAG-GCTGCGCGCGGCGAGATAGCCGAACAGGCCGA     647
+
+seqB               576 TGCTGGGGTTGGCATAGGTGCGCTTCGTGCCGGGCGCATACTGCGGGGTC     625
+                       ||||.|||||||.||||..|||||...||||.|||||.||...|||...|
+seqA               648 TGCTCGGGTTGGAATAGAGGCGCTGGCTGCCCGGCGCGTAGGTCGGCTGC     697
+
+seqB               626 CA--GGCCTTGAGGTAGTC-C--ATCAGTTGCGCCGTG---TTCTGGACC     667
+                       ||  |||  .|..|||||| |  |||.||   |||..|   |||||.|||
+seqA               698 CACTGGC--GGTAGTAGTCGCGGATCTGT---GCCTGGTCCTTCTGCACC     742
+
+seqB               668 GCGTCCGGCACCTGCAAGGGAAAGCCGCCGGCGGTGTGCGTGGCCAGGTT     717
+                       |.|||.||.|.|||||..||.||||||||||||||.|..||.||.||||
+seqA               743 GAGTCGGGGAACTGCAGCGGCAAGCCGCCGGCGGTATAGGTCGCGAGGT-     791
+
+seqB               718 CACCAGC-GTCAGCT--TGGCGAATTCGCTGCCTTGCAGCTCGGGCACCC     764
+                         |.||| |.|.|.|  .|.||||...||||||.|||||..|.|||....
+seqA               792 --CGAGCAGGCTGATGCCGTCGAAGCGGCTGCCCTGCAGTGCCGGCCAGT     839
+
+seqB               765 ACTTGGCCGG-ACTGTCGGCCA-GCGACAGGCGGCCCGTGGCCTGCGCGT     812
+                       .| ||||.|| .|.||||.|.| ||| ||....|.||..||.|.|.||.|
+seqA               840 GC-TGGCTGGCGCGGTCGTCGAGGCG-CATCTTGTCCTGGGTCAGGGCAT     887
+
+seqB               813 AGGCGGCCAGCGTGACGGTGAAGGTCTTGCTGATCGAACCCAGTTCGAAC     862
+                       ||.||||.||.|||.||||||||||||||||.|.|||.||.|..||||||
+seqA               888 AGCCGGCGAGGGTGGCGGTGAAGGTCTTGCTCACCGAGCCGATCTCGAAC     937
+
+seqB               863 AGGGTGTCGCTGGAAACGGCGCGGCGCGGCTGGCG--------CGAGGCG     904
+                       |||||.||        |||||...|.||||.|.||        ||||||.
+seqA               938 AGGGTCTC--------CGGCGTCACCCGGCGGCCGTCCTCTTTCGAGGCC     979
+
+seqB               905 TCGCCATAGTTGAAGAAGCGCTGCTTGCCATTGTGGCTGACGCCGATGGC     954
+                       ...||||||.|||||.|..||.|.|..||.||..||||||.|.|.|.|||
+seqA               980 AGCCCATAGCTGAAGTAATGCGGTTCTCCTTTCAGGCTGATGGCTACGGC    1029
+
+seqB               955 CATGCCGTCG--ATGCCATATTGGC--GCATGACC     985
+                       ||.|||  ||  |||.|  ||||||  .|||.|||
+seqA              1030 CAGGCC--CGGAATGTC--ATTGGCCTTCATCACC    1060
+
+Length: 1035
+Identity:       680/1035 (65.7%)
+Similarity:     680/1035 (65.7%)
+Gaps:            99/1035 ( 9.6%)
+Score: 3547
