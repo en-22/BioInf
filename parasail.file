@@ -1,5 +1,3 @@
-EMBOSS
-
 seqB                 2 TTCGGATAGTTGCGGTTGGCCAGGATCACGATGCCGAGCTTGCGCGACGG      51
                        ||.||||||||||||||||||||||||||.|..||.||.|.|||...|||
 seqA                74 TTGGGATAGTTGCGGTTGGCCAGGATCACCAGTCCCAGGTCGCGGCCCGG     123
@@ -89,3 +87,4 @@ Identity:       680/1035 (65.7%)
 Similarity:     680/1035 (65.7%)
 Gaps:            99/1035 ( 9.6%)
 Score: 3547
+
