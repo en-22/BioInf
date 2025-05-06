@@ -88,3 +88,6 @@ Similarity:     680/1035 (65.7%)
 Gaps:            99/1035 ( 9.6%)
 Score: 3547
 
+Average real time: .11619000000000000000 seconds
+Average user time: .06647000000000000000 seconds
+Average sys time:  .00155000000000000000 seconds
