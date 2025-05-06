@@ -1,0 +1,161 @@
+./blastn -task blastn -query file1 -subject file2
+BLASTN 2.16.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: User specified sequence set (Input: file2).
+           1 sequences; 987 total letters
+
+
+
+Query= seqA
+
+Length=1191
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+seqB                                                                  202     3e-55
+
+
+> seqB
+Length=987
+
+ Score = 202 bits (223),  Expect = 3e-55
+ Identities = 589/886 (66%), Gaps = 31/886 (3%)
+ Strand=Plus/Plus
+
+Query  74   TTGGGATAGTTGCGGTTGGCCAGGATCACCAGTCCCAGGTCGCGGCCCGGGACGAACGCC  133
+            || |||||||||||||||||||||||||| |  || || | |||   ||| |||||||||
+Sbjct  2    TTCGGATAGTTGCGGTTGGCCAGGATCACGATGCCGAGCTTGCGCGACGGCACGAACGCC  61
+
+Query  134  ACGTAGGCGCCGAAGCCGTTGGTGGAACCGGTCTTGTTCAGCAGGCGCTGGC-CCTCCAG  192
+            ||||||||||| ||||| |||||||  ||||||||||| | |   | | | |  || | |
+Sbjct  62   ACGTAGGCGCCAAAGCCATTGGTGGCGCCGGTCTTGTTGA-CCCACACCGCCTGCTGCGG  120
+
+Query  193  CGCCTGTGGCGCGGGC--AGCCTGGCGATCCTGTGCGGT-TGCAGCGCCATCGGCGTCGA  249
+            |||| | ||||   ||   |||| |    || |   ||| |  | ||| | | | |  ||
+Sbjct  121  CGCCAGCGGCGGTTGCTGGGCCTTG---ACCGGCAGGGTCTCGAACGCGACCTGGGCGGA  177
+
+Query  250  GTTGCCGGCCTGCAGGCGCTTCAGGGAGATCGGCCAGTCGTAGGCTTCCCAGCCCAGGCC  309
+            |||||||  |  ||||   | ||  || | |||  ||   ||   |||||||  |||| |
+Sbjct  178  GTTGCCGCGCACCAGGTCGTCCACCGACACCGGGTAGCGATACTGTTCCCAGATCAGGTC  237
+
+Query  310  CTGGGTCATGTCGCCGACCTTGTAGTAACCGCGATGGGTGGCATCGA--GCGC-CTGCGC  366
+            ||| |||||  |||| | || ||| || |||   |||||  |  |||  |||| ||||
+Sbjct  238  CTGCGTCATCGCGCCCAACTGGTAATAGCCGGTGTGGGTCTCGGCGATGGCGCGCTGCAG  297
+
+Query  367  CCAGGGCCTGTCCAGGCGCTCCGGATGCAGGTTGGCATCGACGAAGCGCAGCAGGTCGGC  426
+            |  ||   |||| |   || | |    ||| |||   |||| ||| ||||||| ||||
+Sbjct  298  CGTGG---TGTCGACCGGCACGGCGCCCAGATTGATCTCGATGAAACGCAGCATGTCGCG  354
+
+Query  427  CGCGCTGGTCTTCACCCCGTAGCCTTCGGCATCCAGCGGGCCGGGACCGACCCGTAGCGG  486
+             ||||||| |||||| |||||| | ||| |  |||||  ||| ||    |  || | |||
+Sbjct  355  GGCGCTGGACTTCACGCCGTAGGCCTCGTCGGCCAGCACGCCCGGGTTCAGGCGCACCGG  414
+
+Query  487  GCGGTCGTCCTTGCCGTAGCCCTGGGCGTACTGCGCCAAC-GCCGCCTCGGGCACGTCGA  545
+               ||| | |||| |||||||||||||||| |  | || |   |||  | ||||| || |
+Sbjct  415  CGCGTCCTGCTTGTCGTAGCCCTGGGCGTAGTCGGGCATCTTGCGCGGC-GGCACTTCCA  473
+
+Query  546  GGTGGGTCTGTTCGAGGCCCAGTGCCGGGAACACTTGCTGCTCCATGAGCCG-TTCGAAC  604
+            |   ||| |     ||||||||    || ||||  |||||||||||  ||||   || |
+Sbjct  474  GCCAGGTGTCGCGCAGGCCCAGCTTGGGAAACAGCTGCTGCTCCAT-CGCCGCCACGTAG  532
+
+Query  605  GGCTGGCCCAGGCTGCGCGCGGCGAGATAGCCGAACAGGCCGATGCTCGGGTTGGAATAG  664
+            | || ||||||   |||||| || |    ||| | || ||||||||| ||||||| ||||
+Sbjct  533  GACTCGCCCAGCGCGCGCGCCGCCACCACGCCCAGCATGCCGATGCTGGGGTTGGCATAG  592
+
+Query  665  AGGCGCTGGCTGCCCGGCGCGTAGGTCGGCTGCCACTGGC--GGTAGTAGTCGCGGATCT  722
+              |||||   |||| ||||| ||   |||   |||  |||   |  ||||||    |  |
+Sbjct  593  GTGCGCTTCGTGCCGGGCGCATACTGCGGGGTCCA--GGCCTTGAGGTAGTCCATCAGTT  650
+
+Query  723  GTGCCTGGTCCTTCTGCACCGAGTCGGGGAACTGCAGCGGCAAGCCGCCGGCGGTATAGG  782
+            | |||  ||  ||||| |||| ||| || | |||||  || |||||||||||||| |  |
+Sbjct  651  GCGCC--GT-GTTCTGGACCGCGTCCGGCACCTGCAAGGGAAAGCCGCCGGCGGTGTGCG  707
+
+Query  783  TCGCGAGGTCGAGCAGGCTGATGCCGTCGAAGCGGCTGCCCTGCAGTGCCGG---CCAGT  839
+            | || ||||  | |||  | |    | ||||   |||||| |||||  | ||   ||| |
+Sbjct  708  TGGCCAGGTTCACCAGCGTCAGCTTGGCGAATTCGCTGCCTTGCAGCTCGGGCACCCACT  767
+
+Query  840  GCTGGCTGGCGCGGTCGTCGAGGCGCATCTTGTCCTGGGTCAGGGCATAGCCGGCGAGGG  899
+              |||| ||  | |||| | ||   ||    | ||  || | | || ||| |||| || |
+Sbjct  768  --TGGCCGG-ACTGTCGGCCAGCGACAGGCGGCCCGTGGCCTGCGCGTAGGCGGCCAGCG  824
+
+Query  900  TGGCGGTGAAGGTCTTGCTCACCGAGCCGATCTCGAACAGGGTCTC  945
+            || |||||||||||||||| | ||| || |  ||||||||||| ||
+Sbjct  825  TGACGGTGAAGGTCTTGCTGATCGAACCCAGTTCGAACAGGGTGTC  870
+
+
+ Score = 22.9 bits (24),  Expect = 0.14
+ Identities = 12/12 (100%), Gaps = 0/12 (0%)
+ Strand=Plus/Minus
+
+Query  236  GCCATCGGCGTC  247
+            ||||||||||||
+Sbjct  954  GCCATCGGCGTC  943
+
+
+ Score = 21.1 bits (22),  Expect = 0.50
+ Identities = 11/11 (100%), Gaps = 0/11 (0%)
+ Strand=Plus/Minus
+
+Query  107  CCCAGGTCGCG  117
+            |||||||||||
+Sbjct  173  CCCAGGTCGCG  163
+
+
+ Score = 21.1 bits (22),  Expect = 0.50
+ Identities = 11/11 (100%), Gaps = 0/11 (0%)
+ Strand=Plus/Plus
+
+Query  22   CTGCTGCTCCA  32
+            |||||||||||
+Sbjct  508  CTGCTGCTCCA  518
+
+
+ Score = 21.1 bits (22),  Expect = 0.50
+ Identities = 11/11 (100%), Gaps = 0/11 (0%)
+ Strand=Plus/Plus
+
+Query  130  CGCCACGTAGG  140
+            |||||||||||
+Sbjct  523  CGCCACGTAGG  533
+
+
+ Score = 21.1 bits (22),  Expect = 0.50
+ Identities = 11/11 (100%), Gaps = 0/11 (0%)
+ Strand=Plus/Minus
+
+Query  399  TGGCATCGACG  409
+            |||||||||||
+Sbjct  970  TGGCATCGACG  960
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780
+
+Effective search space used: 1145221
+
+
+  Database: User specified sequence set (Input: file2).
+    Posted date:  Unknown
+  Number of letters in database: 987
+  Number of sequences in database:  1
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
+
+./blastn -task blastn -subject file1 -query file2 -outfmt 6  -gapopen 5 -gapextend 2 -reward 2 -penalty -3 -dust no -evalue 0.05
+seqB    seqA    66.479  886     266     19      2       870     74      945     2.59e-55        202
