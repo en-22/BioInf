@@ -1,2 +1,5 @@
+# lastz.v1.04.53 --format=blastn
+# Query: seqB
+# Database: seq1
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-seq2	seq1	63.26	1007	299	12	2	971	74	1046	3.5e-157	551.2
+seqB    seqA    63.26   1007    299     12      2       971     74      1046    3.5e-157        551.2
